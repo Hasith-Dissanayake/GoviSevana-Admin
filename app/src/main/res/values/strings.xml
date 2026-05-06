@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GoviSevana_Admin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">User Management</string>
+    <string name="menu_slideshow">Product Management</string>
+    <string name="menu_banners">Logout</string>
+    <string name="menu_orders">Order Management</string>
+
+
+    <!--    login screen-->
+    <string name="signinText">"Welcome Back!"</string>
+    <string name="signinEmail">"Email Address*"</string>
+    <string name="signinPassword">"Password*"</string>
+    <string name="signinForgotPassword">"Forgot Password?"</string>
+    <string name="signinButton">"LOG IN"</string>
+    <string name="signinText2">"Don't have an account? Sign Up"</string>
+    <string name="text3">Enter Mobile Number</string>
+
+    <!--    signup otp screen-->
+    <string name="text4">OTP Verification</string>
+    <string name="text5">Please enter the 6-digit code sent to:</string>
+    <string name="button2">Finish</string>
+    <string name="text6">Resend Code 60 seconds</string>
+
+
+    <string name="text10">GoviSevana</string>
+    <string name="text11">Local Farmer PlatForm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="btn1">Logout</string>
+
+
+</resources>

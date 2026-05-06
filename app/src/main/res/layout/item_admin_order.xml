@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+
+        <TextView
+            android:id="@+id/orderId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order ID: #12345"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/farmerId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farmer ID: F12345"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/totalAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Total Amount: RS.0.00"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/orderStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Status: Pending"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/paymentStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment Status: Unpaid"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="4dp" />
+
+
+        <TextView
+            android:id="@+id/bankDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank: Sampath Bank"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="4dp"/>
+        <TextView
+            android:id="@+id/bankBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Branch: Wariyapola"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/accountHolderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Holder: Hasith Dissanyake"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/accountNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Number: 564649484644"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="2dp" />
+
+
+
+
+
+        <Button
+            android:id="@+id/markPaidButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark as Paid"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
